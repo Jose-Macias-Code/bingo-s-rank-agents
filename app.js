@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
           themeClass: 'theme-jiraiya',
           logo: 'assets/Jiraiya/logo-konoha.png',
           logoAlt: 'Símbolo de Jiraiya',
-          avatar: 'assets/Jiraiya/jiraiya.png',
+          avatar: 'assets/Jiraiya/Jiraiya.png',
           avatarAlt: 'Retrato de Jiraiya',
           name: 'Jiraiya',
           class: 'Nivel: S-Rank — Sabio Sapo',
