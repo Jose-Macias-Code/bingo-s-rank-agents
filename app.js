@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const config = {
       itachi: {
           themeClass: 'theme-itachi',
-          logo: '/assets/Itachi/logo-uchiha.png',
+          logo: 'assets/Itachi/logo-uchiha.png',
           logoAlt: 'Símbolo Clan Uchiha',
-          avatar: '/assets/Itachi/itachi.png',
+          avatar: 'assets/Itachi/itachi.png',
           avatarAlt: 'Retrato de Itachi Uchiha',
           name: 'Itachi Uchiha',
           class: 'Nivel: S-Rank — Genjutsu Especialista',
@@ -12,17 +12,17 @@ document.addEventListener('DOMContentLoaded', () => {
           status: 'Estado: Vivo — Nivel de amenaza extremo',
           description: 'Ex-ANBU de élite de Konoha, actualmente miembro de Akatsuki. Dominó el Mangekyō Sharingan y es reconocido por su genjutsu letal. Responsable de la masacre del Clan Uchiha. Clasificado como objetivo S-Rank de alta amenaza.',
           abilities: [
-              { icon: '/assets/Itachi/tsukuyomi.png', alt: 'Tsukuyomi', label: 'Tsukuyomi' },
-              { icon: '/assets/Itachi/amaterasu.png', alt: 'Amaterasu', label: 'Amaterasu' },
-              { icon: '/assets/Itachi/susano’o.png', alt: 'Susano’o', label: 'Susano’o' },
-              { icon: '/assets/Itachi/izanami.png', alt: 'Izanami', label: 'Izanami' }
+              { icon: 'assets/Itachi/tsukuyomi.png', alt: 'Tsukuyomi', label: 'Tsukuyomi' },
+              { icon: 'assets/Itachi/amaterasu.png', alt: 'Amaterasu', label: 'Amaterasu' },
+              { icon: 'assets/Itachi/susano’o.png', alt: 'Susano’o', label: 'Susano’o' },
+              { icon: 'assets/Itachi/izanami.png', alt: 'Izanami', label: 'Izanami' }
           ]
       },
       jiraiya: {
           themeClass: 'theme-jiraiya',
-          logo: '/assets/Jiraiya/logo-konoha.png',
+          logo: 'assets/Jiraiya/logo-konoha.png',
           logoAlt: 'Símbolo de Jiraiya',
-          avatar: '/assets/Jiraiya/jiraiya.webp',
+          avatar: 'assets/Jiraiya/jiraiya.png',
           avatarAlt: 'Retrato de Jiraiya',
           name: 'Jiraiya',
           class: 'Nivel: S-Rank — Sabio Sapo',
@@ -30,17 +30,17 @@ document.addEventListener('DOMContentLoaded', () => {
           status: 'Estado: Vivo — Nivel de amenaza extremo',
           description: 'Legendario Sannin de Konoha, maestro de Naruto Uzumaki y experto en el Modo Sabio. Reconocido por sus jutsus de invocación de sapos y técnicas de fuego. Clasificado como objetivo S-Rank por su fuerza y habilidades únicas.',
           abilities: [
-              { icon: '/assets/Jiraiya/rasengan.png', alt: 'Rasengan', label: 'Rasengan' },
-              { icon: '/assets/Jiraiya/katon.png', alt: 'Gōkakyū', label: 'Katon: Gōkakyū' },
-              { icon: '/assets/Jiraiya/summoning.png', alt: 'Invocación', label: 'Invocación de Sapos' },
-              { icon: '/assets/Jiraiya/sage-mode.png', alt: 'Modo Sabio', label: 'Modo Sabio Sapo' }
+              { icon: 'assets/Jiraiya/rasengan.png', alt: 'Rasengan', label: 'Rasengan' },
+              { icon: 'assets/Jiraiya/katon.png', alt: 'Gōkakyū', label: 'Katon: Gōkakyū' },
+              { icon: 'assets/Jiraiya/summoning.png', alt: 'Invocación', label: 'Invocación de Sapos' },
+              { icon: 'assets/Jiraiya/sage-mode.png', alt: 'Modo Sabio', label: 'Modo Sabio Sapo' }
           ]
       },
       pain: {
         themeClass: 'theme-pain',
-        logo: '/assets/Pain/logo-akatsuki.png',
+        logo: 'assets/Pain/logo-akatsuki.png',
         logoAlt: 'Símbolo de Akatsuki',
-        avatar: '/assets/Pain/pain.png',
+        avatar: 'assets/Pain/pain.png',
         avatarAlt: 'Retrato de Pain',
         name: 'Pain (Nagato)',
         class: 'Nivel: S-Rank — Líder de Akatsuki',
@@ -48,17 +48,17 @@ document.addEventListener('DOMContentLoaded', () => {
         status: 'Estado: Vivo — Nivel de amenaza extremo',
         description: 'Pain, nombre clave de Nagato, es el líder de Akatsuki y poseedor del Rinnegan. Controla seis cuerpos a través del Camino Exterior, cada uno especializado en diferentes habilidades, y es responsable de la destrucción de Konoha.',
         abilities: [
-          { icon: '/assets/Pain/deva.png', alt: 'Deva Path', label: 'Deva' },
-          { icon: '/assets/Pain/asura.png', alt: 'Asura Path', label: 'Asura' },
-          { icon: '/assets/Pain/human.png', alt: 'Human Path', label: 'Humano' },
-          { icon: '/assets/Pain/animal.png', alt: 'Animal Path', label: 'Animal' }
+          { icon: 'assets/Pain/deva.png', alt: 'Deva Path', label: 'Deva' },
+          { icon: 'assets/Pain/asura.png', alt: 'Asura Path', label: 'Asura' },
+          { icon: 'assets/Pain/human.png', alt: 'Human Path', label: 'Humano' },
+          { icon: 'assets/Pain/animal.png', alt: 'Animal Path', label: 'Animal' }
         ]      
       },    
       minato: {
         themeClass: 'theme-minato',
-        logo: '/assets/Minato/logo-konoha.png',
+        logo: 'assets/Minato/logo-konoha.png',
         logoAlt: 'Símbolo de Konoha',
-        avatar: '/assets/Minato/minato.png',
+        avatar: 'assets/Minato/minato.png',
         avatarAlt: 'Retrato de Minato Namikaze',
         name: 'Minato Namikaze',
         class: 'Nivel: S-Rank — Relámpago Amarillo',
@@ -66,10 +66,10 @@ document.addEventListener('DOMContentLoaded', () => {
         status: 'Estado: Fallecido — Nivel de amenaza: huir a primera vista',
         description: 'Cuarto Hokage de Konoha, famoso por su velocidad y el uso del Hiraishin no Jutsu. Padre de Naruto Uzumaki y héroe de la aldea, es recordado como uno de los ninjas más poderosos de su época.',
         abilities: [
-            { icon: '/assets/Minato/hiraishin.png', alt: 'Hiraishin', label: 'Hiraishin' },
-            { icon: '/assets/Minato/rasengan.png', alt: 'Rasengan', label: 'Rasengan' },
-            { icon: '/assets/Minato/sage-mode.png', alt: 'Modo Sabio', label: 'Modo Sabio Sapo' },
-            { icon: '/assets/Minato/seal.png', alt: 'Sello', label: 'Sellos' }
+            { icon: 'assets/Minato/hiraishin.png', alt: 'Hiraishin', label: 'Hiraishin' },
+            { icon: 'assets/Minato/rasengan.png', alt: 'Rasengan', label: 'Rasengan' },
+            { icon: 'assets/Minato/sage-mode.png', alt: 'Modo Sabio', label: 'Modo Sabio Sapo' },
+            { icon: 'assets/Minato/seal.png', alt: 'Sello', label: 'Sellos' }
         ]
       }    
   };
