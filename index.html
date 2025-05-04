@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Libro Bingo</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="agent-screen" class="agent-screen">
+
+    <div class="background-overlay"></div>
+  
+    <div class="logo" data-field="logo">
+      <img src="" alt="" loading="lazy">
+    </div>
+
+    <div class="agent-image" data-field="avatar">
+      <img src="" alt="" loading="lazy">
+    </div>
+
+    <div class="info-panel">
+      <div class="bingo-label">LIBRO BINGO</div>
+
+      <h1 class="agent-name" data-field="name"></h1>
+
+      <div class="agent-class" data-field="class"></div>
+      <div class="agent-affiliation" data-field="affiliation"></div>
+      <div class="agent-status" data-field="status"></div>
+
+      <p class="agent-description" data-field="description"></p>      
+
+      <div class="abilities">
+        <div class="ability" data-field="ability1" data-rank="S-Rango">
+          <span class="rank">S-Rank</span>
+          <img src="" alt="" loading="lazy">
+          <span class="label"></span>
+        </div>
+        <div class="ability" data-field="ability2" data-rank="S-Rango">
+          <span class="rank">S-Rank</span>
+          <img src="" alt="" loading="lazy">
+          <span class="label"></span>
+        </div>
+        <div class="ability" data-field="ability3" data-rank="S-Rango">
+          <span class="rank">S-Rank</span>
+          <img src="" alt="" loading="lazy">
+          <span class="label"></span>
+        </div>
+        <div class="ability" data-field="ability4" data-rank="S-Rango">
+          <span class="rank">S-Rank</span>
+          <img src="" alt="" loading="lazy">
+          <span class="label"></span>
+        </div>
+      </div>
+
+    </div>
+
+    <aside class="agent-carousel">
+      <ul>
+        <li data-character="itachi">
+          <img src="/assets/carousel/a.webp" alt="Itachi" loading="lazy">
+        </li>
+        <li data-character="jiraiya">
+          <img src="/assets/carousel/d.webp" alt="Jiraiya" loading="lazy">
+        </li>
+        <li data-character="pain">
+          <img src="/assets/carousel/c.webp" alt="Pain" loading="lazy">
+        </li>
+        <li data-character="minato">
+          <img src="/assets/carousel/b.webp" alt="Minato" loading="lazy">
+        </li>
+      </ul>
+    </aside>
+    
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
